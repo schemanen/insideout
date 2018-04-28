@@ -1,0 +1,15 @@
+# Basic install packages
+sudo apt-get -y install python3-pip
+
+# Install dependencies for python in the import modules
+pip install -r requirements
+
+# Post actions
+alembic upgrade head
+
+# Install package for frontend development
+sudo apt-get install npm
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
+sudo apt-get install -y nodejs
+npm install -g @angular/cli
+npm install angular2-chartjs
