@@ -4,6 +4,8 @@ import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
+import { CalendarComponent } from './calendar/calendar.component';
+import { NewsComponent } from './news/news.component';
 
 
 
@@ -18,7 +20,9 @@ const PAGES_COMPONENTS = [
     DashboardModule,
   ],
   declarations: [
-    ...PAGES_COMPONENTS
+    ...PAGES_COMPONENTS,
+    CalendarComponent,
+    NewsComponent
   ],
 })
 export class PagesModule {

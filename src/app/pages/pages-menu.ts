@@ -33,4 +33,14 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  {
+  	title: 'Calendar',
+  	icon: 'nb-grid-b',
+  	link: '/pages/calendar'
+  },
+  {
+    title: 'News',
+    icon: 'nb-compose',
+    link: '/pages/news'
+  },
 ];
