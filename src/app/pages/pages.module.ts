@@ -6,6 +6,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import { CalendarComponent } from './calendar/calendar.component';
 import { NewsComponent } from './news/news.component';
+import { CalendarHeatmap } from 'angular2-calendar-heatmap';
 
 
 
@@ -22,7 +23,8 @@ const PAGES_COMPONENTS = [
   declarations: [
     ...PAGES_COMPONENTS,
     CalendarComponent,
-    NewsComponent
+    NewsComponent,
+    CalendarHeatmap
   ],
 })
 export class PagesModule {

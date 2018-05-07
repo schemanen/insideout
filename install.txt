@@ -14,3 +14,5 @@ sudo apt-get install -y nodejs
 npm install -g @angular/cli
 npm install angular2-chartjs
 npm install --save angular2-fullcalendar
+npm install --save angular2-calendar-heatmap
+npm install --save d3

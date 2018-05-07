@@ -8,6 +8,7 @@ import { ChartLineComponent } from '../charts/chart-line/chart-line.component';
 import { ChartModule } from 'angular2-chartjs';
 
 
+
 @NgModule({
   imports: [
     ThemeModule,
@@ -16,7 +17,8 @@ import { ChartModule } from 'angular2-chartjs';
   declarations: [
     DashboardComponent,
     ChartPieComponent,
-    ChartLineComponent
+    ChartLineComponent,
+
   ],
 })
 export class DashboardModule { }
