@@ -12,6 +12,30 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+  	title: 'Calendar',
+  	icon: 'nb-grid-b',
+  	link: '/pages/calendar'
+  },
+  {
+    title: 'Meeting room',
+    icon: 'nb-home',
+    link: '/pages/meetingroom'
+  },
+  {
+    title: 'News',
+    icon: 'nb-compose',
+    link: '/pages/news'
+  },
+  {
+    title: 'ADMINISTRATION',
+    group: true,
+  },
+  {
+    title: 'Maintenance',
+    icon: 'nb-heart',
+    link: '/pages/maintenance'
+  },
+  {
     title: 'Auth',
     icon: 'nb-locked',
     children: [
@@ -32,20 +56,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/reset-password',
       },
     ],
-  },
-  {
-  	title: 'Calendar',
-  	icon: 'nb-grid-b',
-  	link: '/pages/calendar'
-  },
-  {
-    title: 'Meeting room',
-    icon: 'nb-home',
-    link: '/pages/meetingroom'
-  },
-  {
-    title: 'News',
-    icon: 'nb-compose',
-    link: '/pages/news'
   },
 ];
