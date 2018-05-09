@@ -10,21 +10,26 @@ export class CalendarComponent implements OnInit {
   data = [
 	{
 	  "date": "2018-05-07",
-	  "total": 8000,
+	  "total": 64800,
 	  "details": [{
 	    "name": "Room 1",
 	    "date": "2018-05-07 12:30:45",
-	    "value": 9192
+	    "value": 21600
 	  }, 
 	  {
 	    "name": "Room 2",
 	    "date": "2018-05-07 13:37:00",
-	    "value": 6753
+	    "value": 11800
+	  },
+	  {
+	    "name": "Room 2",
+	    "date": "2018-05-07 08:37:00",
+	    "value": 11800
 	  },
 	  {
 	    "name": "Room 3",
 	    "date": "2018-05-07 17:52:41",
-	    "value": 1219
+	    "value": 19600
 	  }]
 	}
 

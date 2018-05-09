@@ -5,6 +5,7 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CalendarComponent } from './calendar/calendar.component'
 import { NewsComponent } from './news/news.component'
+import { MeetingroomComponent } from './meetingroom/meetingroom.component'
 
 const routes: Routes = [{
   path: '',
@@ -26,6 +27,10 @@ const routes: Routes = [{
     {
       path: 'news',
       component: NewsComponent
+    },
+    {
+      path: 'meetingroom',
+      component: MeetingroomComponent
     },
   ],
 }];

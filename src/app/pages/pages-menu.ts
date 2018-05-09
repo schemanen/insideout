@@ -3,7 +3,7 @@ import { NbMenuItem } from '@nebular/theme';
 export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Dashboard',
-    icon: 'nb-home',
+    icon: 'nb-lightbulb',
     link: '/pages/dashboard',
     home: true,
   },
@@ -37,6 +37,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
   	title: 'Calendar',
   	icon: 'nb-grid-b',
   	link: '/pages/calendar'
+  },
+  {
+    title: 'Meeting room',
+    icon: 'nb-home',
+    link: '/pages/meetingroom'
   },
   {
     title: 'News',
