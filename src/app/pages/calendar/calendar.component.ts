@@ -9,26 +9,26 @@ export class CalendarComponent implements OnInit {
   overview = 'day';
   data = [
 	{
-	  "date": "2018-05-07",
+	  "date": "2018-05-14",
 	  "total": 64800,
 	  "details": [{
-	    "name": "Room 1",
-	    "date": "2018-05-07 12:30:45",
+	    "name": "Coffee Machine area",
+	    "date": "2018-05-14 12:30:45",
 	    "value": 21600
 	  }, 
 	  {
-	    "name": "Room 2",
-	    "date": "2018-05-07 13:37:00",
+	    "name": "Sheldon Coopers spot",
+	    "date": "2018-05-14 13:37:00",
 	    "value": 11800
 	  },
 	  {
-	    "name": "Room 2",
-	    "date": "2018-05-07 08:37:00",
+	    "name": "Sheldon Coopers spot",
+	    "date": "2018-05-14 08:37:00",
 	    "value": 11800
 	  },
 	  {
-	    "name": "Room 3",
-	    "date": "2018-05-07 17:52:41",
+	    "name": "Jockes office",
+	    "date": "2018-05-14 17:52:41",
 	    "value": 19600
 	  }]
 	}

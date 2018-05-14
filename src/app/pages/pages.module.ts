@@ -9,6 +9,8 @@ import { NewsComponent } from './news/news.component';
 import { CalendarHeatmap } from 'angular2-calendar-heatmap';
 import { MeetingroomComponent } from './meetingroom/meetingroom.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
+import { TipComponent } from './tip/tip.component';
 
 
 
@@ -28,7 +30,9 @@ const PAGES_COMPONENTS = [
     NewsComponent,
     CalendarHeatmap,
     MeetingroomComponent,
-    MaintenanceComponent
+    MaintenanceComponent,
+    FrontpageComponent,
+    TipComponent
   ],
 })
 export class PagesModule {
